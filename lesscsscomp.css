@@ -1,0 +1,3261 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Open+Sans);
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/s/support/font-awesome-4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('/s/support/font-awesome-4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('/s/support/font-awesome-4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('/s/support/font-awesome-4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('/s/support/font-awesome-4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="fa-icon"],
+[class*=" fa-icon"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* makes the font 33% larger relative to the icon container */
+.fa-icon-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-icon-2x {
+  font-size: 2em;
+}
+.fa-icon-3x {
+  font-size: 3em;
+}
+.fa-icon-4x {
+  font-size: 4em;
+}
+.fa-icon-5x {
+  font-size: 5em;
+}
+.fa-icon-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa-icon-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.fa-icon-ul > li {
+  position: relative;
+}
+.fa-icon-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.fa-icon-li.fa-icon-lg {
+  left: -1.85714286em;
+}
+.fa-icon-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.fa-icon.pull-left {
+  margin-right: .3em;
+}
+.fa-icon.pull-right {
+  margin-left: .3em;
+}
+.fa-icon-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.fa-icon-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.fa-icon-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.fa-icon-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.fa-icon-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.fa-icon-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .fa-icon-rotate-90,
+:root .fa-icon-rotate-180,
+:root .fa-icon-rotate-270,
+:root .fa-icon-flip-horizontal,
+:root .fa-icon-flip-vertical {
+  filter: none;
+}
+.fa-icon-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.fa-icon-stack-1x,
+.fa-icon-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.fa-icon-stack-1x {
+  line-height: inherit;
+}
+.fa-icon-stack-2x {
+  font-size: 2em;
+}
+.fa-icon-inverse {
+  color: #ffffff;
+}
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+.fa-icon-glass:before {
+  content: "\f000";
+}
+.fa-icon-music:before {
+  content: "\f001";
+}
+.fa-icon-search:before {
+  content: "\f002";
+}
+.fa-icon-envelope-alt:before,
+.fa-icon-envelope-o:before {
+  content: "\f0e0";
+}
+.fa-icon-heart:before {
+  content: "\f004";
+}
+.fa-icon-star:before {
+  content: "\f005";
+}
+.fa-icon-star-empty:before,
+.fa-icon-star-o:before {
+  content: "\f006";
+}
+.fa-icon-user:before {
+  content: "\f007";
+}
+.fa-icon-film:before {
+  content: "\f008";
+}
+.fa-icon-th-large:before {
+  content: "\f009";
+}
+.fa-icon-th:before {
+  content: "\f00a";
+}
+.fa-icon-th-list:before {
+  content: "\f00b";
+}
+.fa-icon-ok:before {
+  content: "\f00c";
+}
+.fa-icon-check:before {
+  content: "\f046";
+}
+.fa-icon-remove:before,
+.fa-icon-close:before,
+.fa-icon-times:before {
+  content: "\f00d";
+}
+.fa-icon-zoom-in:before,
+.fa-icon-search-plus:before {
+  content: "\f00e";
+}
+.fa-icon-zoom-out:before,
+.fa-icon-search-minus:before {
+  content: "\f010";
+}
+.fa-icon-off:before,
+.fa-icon-icon-off:before,
+.fa-icon-power-off:before {
+  content: "\f011";
+}
+.fa-icon-signal:before {
+  content: "\f012";
+}
+.fa-icon-gear:before,
+.fa-icon-cog:before {
+  content: "\f013";
+}
+.fa-icon-trash-o:before {
+  content: "\f1f8";
+}
+.fa-icon-home:before {
+  content: "\f015";
+}
+.fa-icon-file-o:before {
+  content: "\f15b";
+}
+.fa-icon-time:before,
+.fa-icon-clock-o:before {
+  content: "\f017";
+}
+.fa-icon-road:before {
+  content: "\f018";
+}
+.fa-icon-download:before {
+  content: "\f01a";
+}
+.fa-icon-download-alt:before {
+  content: "\f019";
+}
+.fa-icon-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+.fa-icon-upload:before,
+.fa-icon-arrow-circle-o-up:before {
+  content: "\f01b";
+}
+.fa-icon-inbox:before {
+  content: "\f01c";
+}
+.fa-icon-play-circle-o:before {
+  content: "\f144";
+}
+.fa-icon-rotate-right:before,
+.fa-icon-repeat:before {
+  content: "\f01e";
+}
+.fa-icon-refresh:before {
+  content: "\f021";
+}
+.fa-icon-list-alt:before {
+  content: "\f022";
+}
+.fa-icon-lock:before {
+  content: "\f023";
+}
+.fa-icon-flag:before {
+  content: "\f024";
+}
+.fa-icon-headphones:before {
+  content: "\f025";
+}
+.fa-icon-volume-off:before {
+  content: "\f026";
+}
+.fa-icon-volume-down:before {
+  content: "\f027";
+}
+.fa-icon-volume-up:before {
+  content: "\f028";
+}
+.fa-icon-qrcode:before {
+  content: "\f029";
+}
+.fa-icon-barcode:before {
+  content: "\f02a";
+}
+.fa-icon-tag:before {
+  content: "\f02b";
+}
+.fa-icon-tags:before {
+  content: "\f02c";
+}
+.fa-icon-book:before {
+  content: "\f02d";
+}
+.fa-icon-bookmark:before {
+  content: "\f02e";
+}
+.fa-icon-print:before {
+  content: "\f02f";
+}
+.fa-icon-camera:before {
+  content: "\f030";
+}
+.fa-icon-font:before {
+  content: "\f031";
+}
+.fa-icon-bold:before {
+  content: "\f032";
+}
+.fa-icon-italic:before {
+  content: "\f033";
+}
+.fa-icon-text-height:before {
+  content: "\f034";
+}
+.fa-icon-text-width:before {
+  content: "\f035";
+}
+.fa-icon-align-left:before {
+  content: "\f036";
+}
+.fa-icon-align-center:before {
+  content: "\f037";
+}
+.fa-icon-align-right:before {
+  content: "\f038";
+}
+.fa-icon-align-justify:before {
+  content: "\f039";
+}
+.fa-icon-list:before {
+  content: "\f03a";
+}
+.fa-icon-dedent:before,
+.fa-icon-indent-left:before,
+.fa-icon-outdent:before {
+  content: "\f03b";
+}
+.fa-icon-indent-right:before,
+.fa-icon-indent:before {
+  content: "\f03c";
+}
+.fa-icon-facetime-video:before,
+.fa-icon-video-camera:before {
+  content: "\f03d";
+}
+.fa-icon-photo:before,
+.fa-icon-picture:before,
+.fa-icon-image:before,
+.fa-icon-picture-o:before {
+  content: "\f03e";
+}
+.fa-icon-pencil:before {
+  content: "\f040";
+}
+.fa-icon-map-marker:before {
+  content: "\f041";
+}
+.fa-icon-adjust:before {
+  content: "\f042";
+}
+.fa-icon-tint:before {
+  content: "\f043";
+}
+.fa-icon-edit:before,
+.fa-icon-pencil-square-o:before {
+  content: "\f044";
+}
+.fa-icon-share-sign:before,
+.fa-icon-share-square-o:before {
+  content: "\f14d";
+}
+.fa-icon-check-square-o:before {
+  content: "\f046";
+}
+.fa-icon-move:before,
+.fa-icon-arrows:before {
+  content: "\f047";
+}
+.fa-icon-step-backward:before {
+  content: "\f048";
+}
+.fa-icon-fast-backward:before {
+  content: "\f049";
+}
+.fa-icon-backward:before {
+  content: "\f04a";
+}
+.fa-icon-play:before {
+  content: "\f04b";
+}
+.fa-icon-pause:before {
+  content: "\f04c";
+}
+.fa-icon-stop:before {
+  content: "\f04d";
+}
+.fa-icon-forward:before {
+  content: "\f04e";
+}
+.fa-icon-fast-forward:before {
+  content: "\f050";
+}
+.fa-icon-step-forward:before {
+  content: "\f051";
+}
+.fa-icon-eject:before {
+  content: "\f052";
+}
+.fa-icon-chevron-left:before {
+  content: "\f053";
+}
+.fa-icon-chevron-right:before {
+  content: "\f054";
+}
+.fa-icon-plus-sign:before,
+.fa-icon-plus-circle:before {
+  content: "\f055";
+}
+.fa-icon-minus-sign:before,
+.fa-icon-minus-circle:before {
+  content: "\f056";
+}
+.fa-icon-remove-sign:before,
+.fa-icon-times-circle:before {
+  content: "\f057";
+}
+.fa-icon-ok-sign:before,
+.fa-icon-check-circle:before {
+  content: "\f058";
+}
+.fa-icon-question-sign:before,
+.fa-icon-question-circle:before {
+  content: "\f059";
+}
+.fa-icon-info-sign:before,
+.fa-icon-info-circle:before {
+  content: "\f05a";
+}
+.fa-icon-screenshot:before,
+.fa-icon-crosshairs:before {
+  content: "\f05b";
+}
+.fa-icon-remove-circle:before,
+.fa-icon-times-circle-o:before {
+  content: "\f05c";
+}
+.fa-icon-ok-circle:before,
+.fa-icon-check-circle-o:before {
+  content: "\f05d";
+}
+.fa-icon-ban-circle:before,
+.fa-icon-ban:before {
+  content: "\f05e";
+}
+.fa-icon-arrow-left:before {
+  content: "\f060";
+}
+.fa-icon-arrow-right:before {
+  content: "\f061";
+}
+.fa-icon-arrow-up:before {
+  content: "\f062";
+}
+.fa-icon-arrow-down:before {
+  content: "\f063";
+}
+.fa-icon-mail-forward:before,
+.fa-icon-share:before {
+  content: "\f045";
+}
+.fa-icon-expand:before {
+  content: "\f065";
+}
+.fa-icon-compress:before {
+  content: "\f066";
+}
+.fa-icon-plus:before {
+  content: "\f067";
+}
+.fa-icon-minus:before {
+  content: "\f068";
+}
+.fa-icon-asterisk:before {
+  content: "\f069";
+}
+.fa-icon-exclamation-circle:before {
+  content: "\f06a";
+}
+.fa-icon-gift:before {
+  content: "\f06b";
+}
+.fa-icon-leaf:before {
+  content: "\f06c";
+}
+.fa-icon-fire:before {
+  content: "\f06d";
+}
+.fa-icon-eye:before {
+  content: "\f06e";
+}
+.fa-icon-eye-slash:before {
+  content: "\f070";
+}
+.fa-icon-warning:before,
+.fa-icon-exclamation-triangle:before {
+  content: "\f071";
+}
+.fa-icon-plane:before {
+  content: "\f072";
+}
+.fa-icon-calendar:before {
+  content: "\f073";
+}
+.fa-icon-random:before {
+  content: "\f074";
+}
+.fa-icon-comment:before {
+  content: "\f075";
+}
+.fa-icon-magnet:before {
+  content: "\f076";
+}
+.fa-icon-chevron-up:before {
+  content: "\f077";
+}
+.fa-icon-chevron-down:before {
+  content: "\f078";
+}
+.fa-icon-retweet:before {
+  content: "\f079";
+}
+.fa-icon-shopping-cart:before {
+  content: "\f07a";
+}
+.fa-icon-folder:before {
+  content: "\f07b";
+}
+.fa-icon-folder-open:before {
+  content: "\f07c";
+}
+.fa-icon-arrows-v:before {
+  content: "\f07d";
+}
+.fa-icon-arrows-h:before {
+  content: "\f07e";
+}
+.fa-icon-bar-chart-o:before,
+.fa-icon-bar-chart:before {
+  content: "\f080";
+}
+.fa-icon-twitter-square:before {
+  content: "\f081";
+}
+.fa-icon-facebook-square:before {
+  content: "\f082";
+}
+.fa-icon-camera-retro:before {
+  content: "\f083";
+}
+.fa-icon-key:before {
+  content: "\f084";
+}
+.fa-icon-gears:before,
+.fa-icon-cogs:before {
+  content: "\f085";
+}
+.fa-icon-comments:before {
+  content: "\f086";
+}
+.fa-icon-thumbs-o-up:before {
+  content: "\f087";
+}
+.fa-icon-thumbs-o-down:before {
+  content: "\f088";
+}
+.fa-icon-star-half:before {
+  content: "\f089";
+}
+.fa-icon-heart-o:before {
+  content: "\f08a";
+}
+.fa-icon-sign-out:before {
+  content: "\f08b";
+}
+.fa-icon-linkedin-square:before {
+  content: "\f08c";
+}
+.fa-icon-thumb-tack:before {
+  content: "\f08d";
+}
+.fa-icon-external-link:before {
+  content: "\f08e";
+}
+.fa-icon-sign-in:before {
+  content: "\f090";
+}
+.fa-icon-trophy:before {
+  content: "\f091";
+}
+.fa-icon-github-square:before {
+  content: "\f092";
+}
+.fa-icon-upload:before {
+  content: "\f01b";
+}
+.fa-icon-lemon-o:before {
+  content: "\f094";
+}
+.fa-icon-phone:before {
+  content: "\f095";
+}
+.fa-icon-square-o:before {
+  content: "\f096";
+}
+.fa-icon-bookmark-o:before {
+  content: "\f097";
+}
+.fa-icon-phone-square:before {
+  content: "\f098";
+}
+.fa-icon-twitter:before {
+  content: "\f099";
+}
+.fa-icon-facebook:before {
+  content: "\f09a";
+}
+.fa-icon-github:before {
+  content: "\f09b";
+}
+.fa-icon-unlock:before {
+  content: "\f09c";
+}
+.fa-icon-credit-card:before {
+  content: "\f09d";
+}
+.fa-icon-rss:before {
+  content: "\f09e";
+}
+.fa-icon-hdd:before,
+.fa-icon-hdd-o:before {
+  content: "\f0a0";
+}
+.fa-icon-bullhorn:before {
+  content: "\f0a1";
+}
+.fa-icon-bell:before {
+  content: "\f0a2";
+}
+.fa-icon-certificate:before {
+  content: "\f0a3";
+}
+.fa-icon-hand-right:before,
+.fa-icon-hand-o-right:before {
+  content: "\f0a4";
+}
+.fa-icon-hand-left:before,
+.fa-icon-hand-o-left:before {
+  content: "\f0a5";
+}
+.fa-icon-hand-up:before,
+.fa-icon-hand-o-up:before {
+  content: "\f0a6";
+}
+.fa-icon-hand-down:before,
+.fa-icon-hand-o-down:before {
+  content: "\f0a7";
+}
+.fa-icon-circle-arrow-left:before,
+.fa-icon-arrow-circle-left:before {
+  content: "\f0a8";
+}
+.fa-icon-circle-arrow-right:before,
+.fa-icon-arrow-circle-right:before {
+  content: "\f0a9";
+}
+.fa-icon-circle-arrow-up:before,
+.fa-icon-arrow-circle-up:before {
+  content: "\f0aa";
+}
+.fa-icon-circle-arrow-down:before,
+.fa-icon-arrow-circle-down:before {
+  content: "\f0ab";
+}
+.fa-icon-globe:before {
+  content: "\f0ac";
+}
+.fa-icon-wrench:before {
+  content: "\f0ad";
+}
+.fa-icon-tasks:before {
+  content: "\f0ae";
+}
+.fa-icon-filter:before {
+  content: "\f0b0";
+}
+.fa-icon-briefcase:before {
+  content: "\f0b1";
+}
+.fa-icon-fullscreen:before,
+.fa-icon-arrows-alt:before {
+  content: "\f0b2";
+}
+.fa-icon-group:before,
+.fa-icon-users:before {
+  content: "\f0c0";
+}
+.fa-icon-chain:before,
+.fa-icon-link:before {
+  content: "\f0c1";
+}
+.fa-icon-cloud:before {
+  content: "\f0c2";
+}
+.fa-icon-beaker:before,
+.fa-icon-flask:before {
+  content: "\f0c3";
+}
+.fa-icon-cut:before,
+.fa-icon-scissors:before {
+  content: "\f0c4";
+}
+.fa-icon-copy:before,
+.fa-icon-files-o:before {
+  content: "\f0c5";
+}
+.fa-icon-paper-clip:before,
+.fa-icon-paperclip:before {
+  content: "\f0c6";
+}
+.fa-icon-save:before,
+.fa-icon-floppy-o:before {
+  content: "\f0c7";
+}
+.fa-icon-sign-blank:before,
+.fa-icon-square:before {
+  content: "\f0c8";
+}
+.fa-icon-navicon:before,
+.fa-icon-reorder:before,
+.fa-icon-bars:before {
+  content: "\f0c9";
+}
+.fa-icon-list-ul:before {
+  content: "\f0ca";
+}
+.fa-icon-list-ol:before {
+  content: "\f0cb";
+}
+.fa-icon-strikethrough:before {
+  content: "\f0cc";
+}
+.fa-icon-underline:before {
+  content: "\f0cd";
+}
+.fa-icon-table:before {
+  content: "\f0ce";
+}
+.fa-icon-magic:before {
+  content: "\f0d0";
+}
+.fa-icon-truck:before {
+  content: "\f0d1";
+}
+.fa-icon-pinterest:before {
+  content: "\f0d2";
+}
+.fa-icon-pinterest-sign:before,
+.fa-icon-pinterest-square:before {
+  content: "\f0d3";
+}
+.fa-icon-google-plus-sign:before,
+.fa-icon-google-plus-square:before {
+  content: "\f0d4";
+}
+.fa-icon-google-plus:before {
+  content: "\f0d5";
+}
+.fa-icon-money:before {
+  content: "\f0d6";
+}
+.fa-icon-caret-down:before {
+  content: "\f0d7";
+}
+.fa-icon-caret-up:before {
+  content: "\f0d8";
+}
+.fa-icon-caret-left:before {
+  content: "\f0d9";
+}
+.fa-icon-caret-right:before {
+  content: "\f0da";
+}
+.fa-icon-columns:before {
+  content: "\f0db";
+}
+.fa-icon-unsorted:before,
+.fa-icon-sort:before {
+  content: "\f0dc";
+}
+.fa-icon-sort-down:before,
+.fa-icon-sort-desc:before {
+  content: "\f0dd";
+}
+.fa-icon-sort-up:before,
+.fa-icon-sort-asc:before {
+  content: "\f0de";
+}
+.fa-icon-envelope:before {
+  content: "\f003";
+}
+.fa-icon-linkedin:before {
+  content: "\f0e1";
+}
+.fa-icon-rotate-left:before,
+.fa-icon-undo:before {
+  content: "\f0e2";
+}
+.fa-icon-legal:before,
+.fa-icon-gavel:before {
+  content: "\f0e3";
+}
+.fa-icon-dashboard:before,
+.fa-icon-tachometer:before {
+  content: "\f0e4";
+}
+.fa-icon-comment-o:before {
+  content: "\f0e5";
+}
+.fa-icon-comments-o:before {
+  content: "\f0e6";
+}
+.fa-icon-flash:before,
+.fa-icon-bolt:before {
+  content: "\f0e7";
+}
+.fa-icon-sitemap:before {
+  content: "\f0e8";
+}
+.fa-icon-umbrella:before {
+  content: "\f0e9";
+}
+.fa-icon-paste:before,
+.fa-icon-clipboard:before {
+  content: "\f0ea";
+}
+.fa-icon-lightbulb-o:before {
+  content: "\f0eb";
+}
+.fa-icon-exchange:before {
+  content: "\f0ec";
+}
+.fa-icon-cloud-download:before {
+  content: "\f0ed";
+}
+.fa-icon-cloud-upload:before {
+  content: "\f0ee";
+}
+.fa-icon-user-md:before {
+  content: "\f0f0";
+}
+.fa-icon-stethoscope:before {
+  content: "\f0f1";
+}
+.fa-icon-suitcase:before {
+  content: "\f0f2";
+}
+.fa-icon-bell-o:before {
+  content: "\f0f3";
+}
+.fa-icon-coffee:before {
+  content: "\f0f4";
+}
+.fa-icon-cutlery:before {
+  content: "\f0f5";
+}
+.fa-icon-file-text-o:before {
+  content: "\f0f6";
+}
+.fa-icon-building-o:before {
+  content: "\f0f7";
+}
+.fa-icon-hospital-o:before {
+  content: "\f0f8";
+}
+.fa-icon-ambulance:before {
+  content: "\f0f9";
+}
+.fa-icon-medkit:before {
+  content: "\f0fa";
+}
+.fa-icon-fighter-jet:before {
+  content: "\f0fb";
+}
+.fa-icon-beer:before {
+  content: "\f0fc";
+}
+.fa-icon-h-square:before {
+  content: "\f0fd";
+}
+.fa-icon-plus-square:before {
+  content: "\f0fe";
+}
+.fa-icon-angle-double-left:before {
+  content: "\f100";
+}
+.fa-icon-angle-double-right:before {
+  content: "\f101";
+}
+.fa-icon-angle-double-up:before {
+  content: "\f102";
+}
+.fa-icon-angle-double-down:before {
+  content: "\f103";
+}
+.fa-icon-angle-left:before {
+  content: "\f104";
+}
+.fa-icon-angle-right:before {
+  content: "\f105";
+}
+.fa-icon-angle-up:before {
+  content: "\f106";
+}
+.fa-icon-angle-down:before {
+  content: "\f107";
+}
+.fa-icon-desktop:before {
+  content: "\f108";
+}
+.fa-icon-laptop:before {
+  content: "\f109";
+}
+.fa-icon-tablet:before {
+  content: "\f10a";
+}
+.fa-icon-mobile-phone:before,
+.fa-icon-mobile:before {
+  content: "\f10b";
+}
+.fa-icon-circle-o:before {
+  content: "\f10c";
+}
+.fa-icon-quote-left:before {
+  content: "\f10d";
+}
+.fa-icon-quote-right:before {
+  content: "\f10e";
+}
+.fa-icon-spinner:before {
+  content: "\f110";
+}
+.fa-icon-circle:before {
+  content: "\f111";
+}
+.fa-icon-mail-reply:before,
+.fa-icon-reply:before {
+  content: "\f112";
+}
+.fa-icon-github-alt:before {
+  content: "\f113";
+}
+.fa-icon-folder-close-alt:before,
+.fa-icon-folder-o:before {
+  content: "\f114";
+}
+.fa-icon-folder-open-alt:before,
+.fa-icon-folder-open-o:before {
+  content: "\f115";
+}
+.fa-icon-smile:before,
+.fa-icon-smile-o:before {
+  content: "\f118";
+}
+.fa-icon-frown:before,
+.fa-icon-frown-o:before {
+  content: "\f119";
+}
+.fa-icon-meh:before,
+.fa-icon-meh-o:before {
+  content: "\f11a";
+}
+.fa-icon-gamepad:before {
+  content: "\f11b";
+}
+.fa-icon-keyboard:before,
+.fa-icon-keyboard-o:before {
+  content: "\f11c";
+}
+.fa-icon-flag-alt:before,
+.fa-icon-flag-o:before {
+  content: "\f11d";
+}
+.fa-icon-flag-checkered:before {
+  content: "\f11e";
+}
+.fa-icon-terminal:before {
+  content: "\f120";
+}
+.fa-icon-code:before {
+  content: "\f121";
+}
+.fa-icon-mail-reply-all:before,
+.fa-icon-reply-all:before {
+  content: "\f122";
+}
+.fa-icon-star-half-empty:before,
+.fa-icon-star-half-full:before,
+.fa-icon-star-half-o:before {
+  content: "\f123";
+}
+.fa-icon-location-arrow:before {
+  content: "\f124";
+}
+.fa-icon-crop:before {
+  content: "\f125";
+}
+.fa-icon-code-fork:before {
+  content: "\f126";
+}
+.fa-icon-unlink:before,
+.fa-icon-chain-broken:before {
+  content: "\f127";
+}
+.fa-icon-question:before {
+  content: "\f128";
+}
+.fa-icon-info:before {
+  content: "\f129";
+}
+.fa-icon-exclamation:before {
+  content: "\f12a";
+}
+.fa-icon-superscript:before {
+  content: "\f12b";
+}
+.fa-icon-subscript:before {
+  content: "\f12c";
+}
+.fa-icon-eraser:before {
+  content: "\f12d";
+}
+.fa-icon-puzzle-piece:before {
+  content: "\f12e";
+}
+.fa-icon-microphone:before {
+  content: "\f130";
+}
+.fa-icon-microphone-slash:before {
+  content: "\f131";
+}
+.fa-icon-shield:before {
+  content: "\f132";
+}
+.fa-icon-calendar-o:before {
+  content: "\f133";
+}
+.fa-icon-fire-extinguisher:before {
+  content: "\f134";
+}
+.fa-icon-rocket:before {
+  content: "\f135";
+}
+.fa-icon-maxcdn:before {
+  content: "\f136";
+}
+.fa-icon-chevron-circle-left:before {
+  content: "\f137";
+}
+.fa-icon-chevron-circle-right:before {
+  content: "\f138";
+}
+.fa-icon-chevron-circle-up:before {
+  content: "\f139";
+}
+.fa-icon-chevron-circle-down:before {
+  content: "\f13a";
+}
+.fa-icon-html5:before {
+  content: "\f13b";
+}
+.fa-icon-css3:before {
+  content: "\f13c";
+}
+.fa-icon-anchor:before {
+  content: "\f13d";
+}
+.fa-icon-unlock-alt:before {
+  content: "\f13e";
+}
+.fa-icon-bullseye:before {
+  content: "\f140";
+}
+.fa-icon-ellipsis-h:before {
+  content: "\f141";
+}
+.fa-icon-ellipsis-v:before {
+  content: "\f142";
+}
+.fa-icon-rss-square:before {
+  content: "\f143";
+}
+.fa-icon-play-circle:before {
+  content: "\f01d";
+}
+.fa-icon-ticket:before {
+  content: "\f145";
+}
+.fa-icon-minus-square:before {
+  content: "\f146";
+}
+.fa-icon-collapse-alt:before,
+.fa-icon-minus-square-o:before {
+  content: "\f147";
+}
+.fa-icon-level-up:before {
+  content: "\f148";
+}
+.fa-icon-level-down:before {
+  content: "\f149";
+}
+.fa-icon-check-square:before {
+  content: "\f14a";
+}
+.fa-icon-pencil-square:before {
+  content: "\f14b";
+}
+.fa-icon-external-link-square:before {
+  content: "\f14c";
+}
+.fa-icon-share-square:before {
+  content: "\f045";
+}
+.fa-icon-compass:before {
+  content: "\f14e";
+}
+.fa-icon-toggle-down:before,
+.fa-icon-caret-square-o-down:before {
+  content: "\f150";
+}
+.fa-icon-toggle-up:before,
+.fa-icon-caret-square-o-up:before {
+  content: "\f151";
+}
+.fa-icon-toggle-right:before,
+.fa-icon-caret-square-o-right:before {
+  content: "\f152";
+}
+.fa-icon-euro:before,
+.fa-icon-eur:before {
+  content: "\f153";
+}
+.fa-icon-gbp:before {
+  content: "\f154";
+}
+.fa-icon-dollar:before,
+.fa-icon-usd:before {
+  content: "\f155";
+}
+.fa-icon-rupee:before,
+.fa-icon-inr:before {
+  content: "\f156";
+}
+.fa-icon-cny:before,
+.fa-icon-rmb:before,
+.fa-icon-yen:before,
+.fa-icon-jpy:before {
+  content: "\f157";
+}
+.fa-icon-ruble:before,
+.fa-icon-rouble:before,
+.fa-icon-rub:before {
+  content: "\f158";
+}
+.fa-icon-won:before,
+.fa-icon-krw:before {
+  content: "\f159";
+}
+.fa-icon-bitcoin:before,
+.fa-icon-btc:before {
+  content: "\f15a";
+}
+.fa-icon-file:before {
+  content: "\f016";
+}
+.fa-icon-file-text:before {
+  content: "\f15c";
+}
+.fa-icon-sort-alpha-asc:before {
+  content: "\f15d";
+}
+.fa-icon-sort-alpha-desc:before {
+  content: "\f15e";
+}
+.fa-icon-sort-amount-asc:before {
+  content: "\f160";
+}
+.fa-icon-sort-amount-desc:before {
+  content: "\f161";
+}
+.fa-icon-sort-numeric-asc:before {
+  content: "\f162";
+}
+.fa-icon-sort-numeric-desc:before {
+  content: "\f163";
+}
+.fa-icon-thumbs-up:before {
+  content: "\f164";
+}
+.fa-icon-thumbs-down:before {
+  content: "\f165";
+}
+.fa-icon-youtube-square:before {
+  content: "\f166";
+}
+.fa-icon-youtube:before {
+  content: "\f167";
+}
+.fa-icon-xing:before {
+  content: "\f168";
+}
+.fa-icon-xing-square:before {
+  content: "\f169";
+}
+.fa-icon-youtube-play:before {
+  content: "\f16a";
+}
+.fa-icon-dropbox:before {
+  content: "\f16b";
+}
+.fa-icon-stack-overflow:before {
+  content: "\f16c";
+}
+.fa-icon-instagram:before {
+  content: "\f16d";
+}
+.fa-icon-flickr:before {
+  content: "\f16e";
+}
+.fa-icon-adn:before {
+  content: "\f170";
+}
+.fa-icon-bitbucket:before {
+  content: "\f171";
+}
+.fa-icon-bitbucket-square:before {
+  content: "\f172";
+}
+.fa-icon-tumblr:before {
+  content: "\f173";
+}
+.fa-icon-tumblr-square:before {
+  content: "\f174";
+}
+.fa-icon-long-arrow-down:before {
+  content: "\f175";
+}
+.fa-icon-long-arrow-up:before {
+  content: "\f176";
+}
+.fa-icon-long-arrow-left:before {
+  content: "\f177";
+}
+.fa-icon-long-arrow-right:before {
+  content: "\f178";
+}
+.fa-icon-apple:before {
+  content: "\f179";
+}
+.fa-icon-windows:before {
+  content: "\f17a";
+}
+.fa-icon-android:before {
+  content: "\f17b";
+}
+.fa-icon-linux:before {
+  content: "\f17c";
+}
+.fa-icon-dribbble:before {
+  content: "\f17d";
+}
+.fa-icon-skype:before {
+  content: "\f17e";
+}
+.fa-icon-foursquare:before {
+  content: "\f180";
+}
+.fa-icon-trello:before {
+  content: "\f181";
+}
+.fa-icon-female:before {
+  content: "\f182";
+}
+.fa-icon-male:before {
+  content: "\f183";
+}
+.fa-icon-gittip:before {
+  content: "\f184";
+}
+.fa-icon-sun-o:before {
+  content: "\f185";
+}
+.fa-icon-moon-o:before {
+  content: "\f186";
+}
+.fa-icon-archive:before {
+  content: "\f187";
+}
+.fa-icon-bug:before {
+  content: "\f188";
+}
+.fa-icon-vk:before {
+  content: "\f189";
+}
+.fa-icon-weibo:before {
+  content: "\f18a";
+}
+.fa-icon-renren:before {
+  content: "\f18b";
+}
+.fa-icon-pagelines:before {
+  content: "\f18c";
+}
+.fa-icon-stack-exchange:before {
+  content: "\f18d";
+}
+.fa-icon-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+.fa-icon-arrow-circle-o-left:before {
+  content: "\f190";
+}
+.fa-icon-toggle-left:before,
+.fa-icon-caret-square-o-left:before {
+  content: "\f191";
+}
+.fa-icon-dot-circle-o:before {
+  content: "\f192";
+}
+.fa-icon-wheelchair:before {
+  content: "\f193";
+}
+.fa-icon-vimeo-square:before {
+  content: "\f194";
+}
+.fa-icon-turkish-lira:before,
+.fa-icon-try:before {
+  content: "\f195";
+}
+.fa-icon-expand-alt:before,
+.fa-icon-plus-square-o:before {
+  content: "\f196";
+}
+.fa-icon-space-shuttle:before {
+  content: "\f197";
+}
+.fa-icon-slack:before {
+  content: "\f198";
+}
+.fa-icon-envelope-square:before {
+  content: "\f199";
+}
+.fa-icon-wordpress:before {
+  content: "\f19a";
+}
+.fa-icon-openid:before {
+  content: "\f19b";
+}
+.fa-icon-institution:before,
+.fa-icon-bank:before,
+.fa-icon-university:before {
+  content: "\f19c";
+}
+.fa-icon-mortar-board:before,
+.fa-icon-graduation-cap:before {
+  content: "\f19d";
+}
+.fa-icon-yahoo:before {
+  content: "\f19e";
+}
+.fa-icon-google:before {
+  content: "\f1a0";
+}
+.fa-icon-reddit:before {
+  content: "\f1a1";
+}
+.fa-icon-reddit-square:before {
+  content: "\f1a2";
+}
+.fa-icon-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+.fa-icon-stumbleupon:before {
+  content: "\f1a4";
+}
+.fa-icon-delicious:before {
+  content: "\f1a5";
+}
+.fa-icon-digg:before {
+  content: "\f1a6";
+}
+.fa-icon-pied-piper:before {
+  content: "\f1a7";
+}
+.fa-icon-pied-piper-alt:before {
+  content: "\f1a8";
+}
+.fa-icon-drupal:before {
+  content: "\f1a9";
+}
+.fa-icon-joomla:before {
+  content: "\f1aa";
+}
+.fa-icon-language:before {
+  content: "\f1ab";
+}
+.fa-icon-fax:before {
+  content: "\f1ac";
+}
+.fa-icon-building:before {
+  content: "\f1ad";
+}
+.fa-icon-child:before {
+  content: "\f1ae";
+}
+.fa-icon-paw:before {
+  content: "\f1b0";
+}
+.fa-icon-spoon:before {
+  content: "\f1b1";
+}
+.fa-icon-cube:before {
+  content: "\f1b2";
+}
+.fa-icon-cubes:before {
+  content: "\f1b3";
+}
+.fa-icon-behance:before {
+  content: "\f1b4";
+}
+.fa-icon-behance-square:before {
+  content: "\f1b5";
+}
+.fa-icon-steam:before {
+  content: "\f1b6";
+}
+.fa-icon-steam-square:before {
+  content: "\f1b7";
+}
+.fa-icon-recycle:before {
+  content: "\f1b8";
+}
+.fa-icon-automobile:before,
+.fa-icon-car:before {
+  content: "\f1b9";
+}
+.fa-icon-cab:before,
+.fa-icon-taxi:before {
+  content: "\f1ba";
+}
+.fa-icon-tree:before {
+  content: "\f1bb";
+}
+.fa-icon-spotify:before {
+  content: "\f1bc";
+}
+.fa-icon-deviantart:before {
+  content: "\f1bd";
+}
+.fa-icon-soundcloud:before {
+  content: "\f1be";
+}
+.fa-icon-database:before {
+  content: "\f1c0";
+}
+.fa-icon-file-pdf-o:before {
+  content: "\f1c1";
+}
+.fa-icon-file-word-o:before {
+  content: "\f1c2";
+}
+.fa-icon-file-excel-o:before {
+  content: "\f1c3";
+}
+.fa-icon-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+.fa-icon-file-photo-o:before,
+.fa-icon-file-picture-o:before,
+.fa-icon-file-image-o:before {
+  content: "\f1c5";
+}
+.fa-icon-file-zip-o:before,
+.fa-icon-file-archive-o:before {
+  content: "\f1c6";
+}
+.fa-icon-file-sound-o:before,
+.fa-icon-file-audio-o:before {
+  content: "\f1c7";
+}
+.fa-icon-file-movie-o:before,
+.fa-icon-file-video-o:before {
+  content: "\f1c8";
+}
+.fa-icon-file-code-o:before {
+  content: "\f1c9";
+}
+.fa-icon-vine:before {
+  content: "\f1ca";
+}
+.fa-icon-codepen:before {
+  content: "\f1cb";
+}
+.fa-icon-jsfiddle:before {
+  content: "\f1cc";
+}
+.fa-icon-life-bouy:before,
+.fa-icon-life-buoy:before,
+.fa-icon-life-saver:before,
+.fa-icon-support:before,
+.fa-icon-life-ring:before {
+  content: "\f1cd";
+}
+.fa-icon-circle-o-notch:before {
+  content: "\f1ce";
+}
+.fa-icon-ra:before,
+.fa-icon-rebel:before {
+  content: "\f1d0";
+}
+.fa-icon-ge:before,
+.fa-icon-empire:before {
+  content: "\f1d1";
+}
+.fa-icon-git-square:before {
+  content: "\f1d2";
+}
+.fa-icon-git:before {
+  content: "\f1d3";
+}
+.fa-icon-hacker-news:before {
+  content: "\f1d4";
+}
+.fa-icon-tencent-weibo:before {
+  content: "\f1d5";
+}
+.fa-icon-qq:before {
+  content: "\f1d6";
+}
+.fa-icon-wechat:before,
+.fa-icon-weixin:before {
+  content: "\f1d7";
+}
+.fa-icon-send:before,
+.fa-icon-paper-plane:before {
+  content: "\f1d8";
+}
+.fa-icon-send-o:before,
+.fa-icon-paper-plane-o:before {
+  content: "\f1d9";
+}
+.fa-icon-history:before {
+  content: "\f1da";
+}
+.fa-icon-circle-thin:before {
+  content: "\f1db";
+}
+.fa-icon-header:before {
+  content: "\f1dc";
+}
+.fa-icon-paragraph:before {
+  content: "\f1dd";
+}
+.fa-icon-sliders:before {
+  content: "\f1de";
+}
+.fa-icon-share-alt:before {
+  content: "\f064";
+}
+.fa-icon-share-alt-square:before {
+  content: "\f1e1";
+}
+.fa-icon-bomb:before {
+  content: "\f1e2";
+}
+.fa-icon-soccer-ball-o:before,
+.fa-icon-futbol-o:before {
+  content: "\f1e3";
+}
+.fa-icon-tty:before {
+  content: "\f1e4";
+}
+.fa-icon-binoculars:before {
+  content: "\f1e5";
+}
+.fa-icon-plug:before {
+  content: "\f1e6";
+}
+.fa-icon-slideshare:before {
+  content: "\f1e7";
+}
+.fa-icon-twitch:before {
+  content: "\f1e8";
+}
+.fa-icon-yelp:before {
+  content: "\f1e9";
+}
+.fa-icon-newspaper-o:before {
+  content: "\f1ea";
+}
+.fa-icon-wifi:before {
+  content: "\f1eb";
+}
+.fa-icon-calculator:before {
+  content: "\f1ec";
+}
+.fa-icon-paypal:before {
+  content: "\f1ed";
+}
+.fa-icon-google-wallet:before {
+  content: "\f1ee";
+}
+.fa-icon-cc-visa:before {
+  content: "\f1f0";
+}
+.fa-icon-cc-mastercard:before {
+  content: "\f1f1";
+}
+.fa-icon-cc-discover:before {
+  content: "\f1f2";
+}
+.fa-icon-cc-amex:before {
+  content: "\f1f3";
+}
+.fa-icon-cc-paypal:before {
+  content: "\f1f4";
+}
+.fa-icon-cc-stripe:before {
+  content: "\f1f5";
+}
+.fa-icon-bell-slash:before {
+  content: "\f1f6";
+}
+.fa-icon-bell-slash-o:before {
+  content: "\f1f7";
+}
+.fa-icon-trash:before {
+  content: "\f014";
+}
+.fa-icon-copyright:before {
+  content: "\f1f9";
+}
+.fa-icon-at:before {
+  content: "\f1fa";
+}
+.fa-icon-eyedropper:before {
+  content: "\f1fb";
+}
+.fa-icon-paint-brush:before {
+  content: "\f1fc";
+}
+.fa-icon-birthday-cake:before {
+  content: "\f1fd";
+}
+.fa-icon-area-chart:before {
+  content: "\f1fe";
+}
+.fa-icon-pie-chart:before {
+  content: "\f200";
+}
+.fa-icon-line-chart:before {
+  content: "\f201";
+}
+.fa-icon-lastfm:before {
+  content: "\f202";
+}
+.fa-icon-lastfm-square:before {
+  content: "\f203";
+}
+.fa-icon-toggle-off:before {
+  content: "\f204";
+}
+.fa-icon-toggle-on:before {
+  content: "\f205";
+}
+.fa-icon-bicycle:before {
+  content: "\f206";
+}
+.fa-icon-bus:before {
+  content: "\f207";
+}
+.fa-icon-ioxhost:before {
+  content: "\f208";
+}
+.fa-icon-angellist:before {
+  content: "\f209";
+}
+.fa-icon-cc:before {
+  content: "\f20a";
+}
+.fa-icon-shekel:before,
+.fa-icon-sheqel:before,
+.fa-icon-ils:before {
+  content: "\f20b";
+}
+.fa-icon-meanpath:before {
+  content: "\f20c";
+}
+.fa-icon-custom-1:before {
+  content: "OVERRIDE CUSTOM-1 ICON USING <themevar name='custom-1'>\"\\UNICODE\"></themevar>";
+}
+.fa-icon-custom-2:before {
+  content: "OVERRIDE CUSTOM-2 ICON USING <themevar name='custom-2'>\"\\UNICODE\"></themevar>";
+}
+.fa-icon-custom-3:before {
+  content: "OVERRIDE CUSTOM-3 ICON USING <themevar name='custom-3'>\"\\UNICODE\"></themevar>";
+}
+.fa-icon-custom-4:before {
+  content: "OVERRIDE CUSTOM-4 ICON USING <themevar name='custom-4'>\"\\UNICODE\"></themevar>";
+}
+.fa-icon-custom-5:before {
+  content: "OVERRIDE CUSTOM-5 ICON USING <themevar name='custom-5'>\"\\UNICODE\"></themevar>";
+}
+.fa-icon-custom-5:before {
+  content: "OVERRIDE CUSTOM-6 ICON USING <themevar name='custom-6'>\"\\UNICODE\"></themevar>";
+}
+.fa-icon-custom-5:before {
+  content: "OVERRIDE CUSTOM-7 ICON USING <themevar name='custom-7'>\"\\UNICODE\"></themevar>";
+}
+.fa-icon-custom-5:before {
+  content: "OVERRIDE CUSTOM-8 ICON USING <themevar name='custom-8'>\"\\UNICODE\"></themevar>";
+}
+.fa-icon-custom-5:before {
+  content: "OVERRIDE CUSTOM-9 ICON USING <themevar name='custom-9'>\"\\UNICODE\"></themevar>";
+}
+.fa-icon-custom-5:before {
+  content: "OVERRIDE CUSTOM-10 ICON USING <themevar name='custom-10'>\"\\UNICODE\"></themevar>";
+}
+/*
+    Notes:
+
+    - A high level of rule specificity is (unfortunately) necessary to eliminate conflicts in QA mode
+    - Containers exist for most elements to make customization easier
+    - Shorthand rules are not used as much as they could to keep customization docs easier
+
+*/
+/* ================================================== (AQ Colors) ================================================== */
+.survey-theme-colors {
+  color: #ffffff;
+  background-color: #0083cb;
+}
+.survey-theme-colors-selected {
+  color: #ffffff;
+  background-color: #00a4fe;
+}
+.survey-theme-colors-disabled {
+  color: #ffffff;
+  background-color: rgba(0, 131, 203, 0.12);
+}
+/* ======================================================= (Common) ========================================================*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: 0;
+  outline: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+html {
+  -webkit-text-size-adjust: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+legend {
+  color: #000;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="password"],
+textarea {
+  cursor: text;
+}
+/* br that tinymce might add */
+br[_mce_bogus] {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+@media (min-width: 768px) {
+  #detectBreakpoint {
+    display: none;
+  }
+}
+/* ================================================== (Survey Container) ===================================================*/
+#survey,
+.surveySection {
+  text-align: center;
+}
+.surveySection > div {
+  text-align: left;
+}
+#surveyContent,
+#surveyHeader,
+#surveyFooter {
+  margin: 0 auto;
+  min-width: 960px;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+}
+@media (max-width: 960px) {
+  #surveyContent,
+  #surveyHeader,
+  #surveyFooter {
+    display: block;
+    min-width: 0;
+  }
+}
+.answers {
+  display: table;
+  min-width: 901px;
+}
+.noCols .answers {
+  display: block;
+}
+@media (max-width: 960px) {
+  .answers {
+    width: 100%;
+    min-width: 0;
+  }
+}
+/* ============================================== (Primary Container Defaults) ============================================*/
+.survey-header,
+.survey-page-content,
+.survey-footer {
+  clear: both;
+}
+.survey-info,
+.survey-extra-approval,
+.survey-logo,
+.survey-error,
+.survey-complete,
+.survey-comment,
+.survey-q-question,
+.survey-q-instructions,
+.survey-buttons {
+  /* DOES NOT APPLY TO ".answers" and it's children */
+  max-width: 901px;
+}
+/* Auto Width */
+.customWidth .survey-q-error,
+.customWidth .survey-q-question,
+.customWidth .survey-q-instructions {
+  width: auto;
+}
+.survey-header,
+.survey-page-content,
+.survey-footer {
+  clear: both;
+}
+/* Auto Width */
+.customWidth .survey-q-answers,
+.flexGrid .survey-q-answers {
+  min-width: 1px;
+}
+/* ==================================================== (Survey Header) =================================================== */
+/*
+    FUTURE USE:
+    This container will allow client branding outside of actual survey content area (.survey-page-content)
+*/
+.survey-header {
+  height: 0;
+  padding: 0;
+  /* temp overwrite until this container is used */
+  overflow: hidden;
+}
+/* =================================================== (Survey Content) =================================================== */
+#surveyContent > form {
+  clear: both;
+}
+/* ============================================ (Survey Content > Page Errors) =============================================*/
+/*
+    Error container for messages displayed at the top of the page
+    See ".survey-q-error" to modify the style of messages displayed WITHIN a question
+*/
+/* ============================================ (Survey Content > Extra Info) ==============================================*/
+/*
+    The respondent has already taken the survey message, and ..
+
+    This is also used in QA mode for:
+
+        - page breaks
+        - "show question attributes"
+        - "show source code"
+        - and other messages
+*/
+/* ================================================= (Survey Content > Logo) ===============================================*/
+/*
+    This element will not get written to the page if a logo is not selected in builder
+*/
+.survey-logo-image {
+  max-width: 100%;
+  max-height: 5em;
+}
+@media (min-width: 768px) {
+  .survey-logo-image {
+    max-width: 40%;
+    max-height: 8em;
+  }
+}
+/* ============================================ (Survey Content > Progress Bar =============================================*/
+/* ========================================== (Survey Content > Survey Question) ===========================================*/
+/* ====================================== (Survey Content > Survey Question > Error) =======================================*/
+/* =================================== (Survey Content > Survey Question > Question Text) ==================================*/
+/* =================================== (Survey Content > Survey Question > Instructions) ===================================*/
+/* ==================================== (Survey Content > Survey Question > Answers) =======================================*/
+/*********************************************
+ FIR - Form Image Replacement (see fir.less for comments)
+ *********************************************/
+/*********************************************
+ STYLE SETTINGS: ROUNDED, SQUARE
+ *********************************************/
+.fir-icon .rounded .fir-base,
+.fir-icon .square .fir-base {
+  fill: #d1d1d1;
+}
+.fir-icon .rounded .fir-bg,
+.fir-icon .square .fir-bg {
+  fill: #ffffff;
+}
+.fir-icon .rounded .fir-selected,
+.fir-icon .square .fir-selected {
+  fill: transparent;
+}
+.fir-icon.selected .rounded .fir-selected,
+.fir-icon.selected .square .fir-selected {
+  fill: #0083cb;
+}
+.fir-icon.disabled .rounded .fir-selected,
+.fir-icon.disabled .square .fir-selected {
+  fill: transparent;
+}
+/*********************************************
+ STYLE SETTINGS: SCALE
+ *********************************************/
+.fir-icon .scale .fir-large,
+.fir-icon .scale .fir-medium,
+.fir-icon.selected .scale .fir-medium,
+.fir-icon.selected .scale .fir-small {
+  fill: transparent;
+}
+.fir-icon .scale .fir-small {
+  fill: #18acfb;
+}
+.fir-icon.selected .scale .fir-large {
+  fill: #0083cb;
+}
+.fir-icon.disabled .scale .fir-medium {
+  fill: transparent;
+}
+/*********************************************
+ RESPONDENT VIEW SETTINGS
+ *********************************************/
+.fir-icon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.fir-icon svg,
+.fir-icon i {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.fir-icon.disabled svg,
+.fir-icon.disabled i {
+  opacity: 0.25;
+  filter: alpha(opacity=25);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+  -moz-opacity: 0.25;
+}
+.fir-icon i.fa-icon-check-square-o,
+.grid-desktop-mode .fir-icon i.fa-icon-check-square-o {
+  margin-left: 3px;
+}
+.grid-list-mode .fir-icon i.fa-icon-check-square-o,
+.grid-mobile-mode .fir-icon i.fa-icon-check-square-o {
+  margin-left: 0px;
+}
+.fir-icon i {
+  color: #18acfb;
+}
+.fir-icon.selected i {
+  color: #0083cb;
+}
+.fir-hidden {
+  display: none !important;
+}
+/*********************************************
+ HIDE FIR FOR THE FOLLOWING DQs
+ *********************************************/
+.sq-ratingscale .fir-icon,
+.sq-fancyboxes .fir-icon {
+  display: none;
+}
+.naCell .fir-icon {
+  display: inline-block;
+}
+/* THESE DQs ALWAYS HIDE FIR -- NOT EVEN SHOWN IN NOANSWER */
+.sq-fir .fir-icon,
+.sq-atmtable .fir-icon {
+  display: none;
+}
+/*********************************************
+ DESKTOP-SPECIFIC RESPONDENT VIEW SETTINGS (FOR HOVERING, ACTIVE, ETC..)
+ *********************************************/
+.non-touch {
+  /***** ROUNDED/SQUARE *****/
+  /***** SCALE *****/
+}
+.non-touch .fir-icon .rounded:hover .fir-selected,
+.non-touch .fir-icon .square:hover .fir-selected,
+.non-touch .clickableCell:hover .fir-icon .rounded .fir-selected,
+.non-touch .clickableCell:hover .fir-icon .square .fir-selected {
+  fill: #18acfb;
+  transition: fill 0.3s ease;
+}
+.non-touch .fir-icon .rounded:hover:active .fir-selected,
+.non-touch .fir-icon .square:hover:active .fir-selected,
+.non-touch .fir-icon.selected .rounded:hover .fir-selected,
+.non-touch .fir-icon.selected .square:hover .fir-selected,
+.non-touch .clickableCell:hover .fir-icon.selected .rounded .fir-selected,
+.non-touch .clickableCell:hover .fir-icon.selected .square .fir-selected {
+  fill: #0083cb;
+  transition: fill 0.3s ease;
+}
+.non-touch .clickableCell:hover .fir-icon.disabled .rounded .fir-selected,
+.non-touch .clickableCell:hover .fir-icon.disabled .square .fir-selected {
+  fill: transparent;
+  transition: fill 0.3s ease;
+}
+.non-touch .clickableCell:hover .fir-icon .scale .fir-medium,
+.non-touch .fir-icon .scale:hover .fir-medium {
+  fill: #18acfb;
+}
+.non-touch .clickableCell:hover:active .fir-icon .scale .fir-large,
+.non-touch .fir-icon .scale:hover:active .fir-large {
+  fill: #0083cb;
+}
+.non-touch .clickableCell:hover .fir-icon.selected .scale .fir-medium,
+.non-touch .clickableCell:hover .fir-icon.selected .scale .fir-small,
+.non-touch .clickableCell:hover .fir-icon.disabled .scale .fir-medium,
+.non-touch .clickableCell:hover:active .fir-icon.disabled .scale .fir-large,
+.non-touch .clickableCell:hover:active .fir-icon .scale .fir-medium,
+.non-touch .clickableCell:hover:active .fir-icon .scale .fir-small,
+.non-touch .fir-icon .scale:hover:active .fir-medium,
+.non-touch .fir-icon .scale:hover:active .fir-small,
+.non-touch .fir-icon.selected .scale:hover .fir-medium,
+.non-touch .fir-icon.disabled .scale:hover:active .fir-large {
+  fill: transparent;
+}
+.non-touch .clickableCell:hover:active .fir-icon.disabled .scale .fir-small,
+.non-touch .fir-icon.disabled .scale:hover:active .fir-small {
+  fill: #18acfb;
+}
+/*********************************************
+ FIR FONT-AWESOME
+ *********************************************/
+.fa-icon-fir-radio:before {
+  content: "\f10c";
+}
+.fa-icon-fir-radio-selected:before {
+  content: "\f192";
+}
+.fa-icon-fir-checkbox:before {
+  content: "\f096";
+}
+.fa-icon-fir-checkbox-selected:before {
+  content: "\f046";
+}
+.fa-icon-fir-fallback-radio:before {
+  content: "\f10c";
+}
+.fa-icon-fir-fallback-radio-selected:before {
+  content: "\f192";
+}
+.fa-icon-fir-fallback-checkbox:before {
+  content: "\f096";
+}
+.fa-icon-fir-fallback-checkbox-selected:before {
+  content: "\f046";
+}
+/*********************************************
+ END FIR
+ *********************************************/
+/* ================================= (Survey Content > Survey Question > Answers > Grid) ===================================*/
+/* Keep in mind this is a MOBILE-FIRST layout. CSS applies to both mobile and desktop view, unless desktop is explicitly mentioned */
+.grid,
+.grid thead,
+.grid tbody,
+.row,
+.cell,
+.cell-body,
+.mobile-group-legend {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: 0;
+  outline: 0;
+}
+.lte-ie9 .grid-mobile-mode,
+.lte-ie9 .grid-mobile-mode thead,
+.lte-ie9 .grid-mobile-mode tbody,
+.lte-ie9 .grid-mobile-mode .row,
+.lte-ie9 .grid-mobile-mode .cell,
+.lte-ie9 .grid-mobile-mode .mobile-group-legend {
+  float: left;
+  clear: left;
+  width: 100%;
+}
+.lte-ie8 #surveyContent form {
+  width: 100%;
+}
+.lte-ie8 .fir-hidden {
+  display: inline-block !important;
+  position: absolute !important;
+  left: -5000px !important;
+}
+.unused,
+.row-col-legends,
+.row-col-legends-bottom,
+.grid-group-by-col .row-legend,
+.grid-single-col .row-legend,
+.grid-multi-col .separator,
+.grid-force-top-legend .col-legend-bottom {
+  display: none;
+}
+.grid-group-by-col .row-col-legends,
+.grid-single-col .row-col-legends {
+  display: block;
+}
+/* There is no border collapsing when cells are in mobile-view, so we simulate it by:
+    1. Assuming people set borders on the .cell or .nonempty class
+    2. Adding the class border-collapse to all cells.
+    3. Add a blank cell to the top of tables, which has the .cell and .nonempty classes,
+       but no .border-collapse class.
+    4. Remove border-top from all .border-collapse cells, effectively stripping borders
+       from every cell except our special top cell. */
+.grid-mobile-mode .border-collapse {
+  border-top: 0;
+}
+.mobile-top-border-cell {
+  margin: 0 !important;
+  padding: 0 !important;
+  border-bottom: 0 !important;
+}
+.grid-list-mode .nonempty {
+  border-width: 0;
+}
+.multi-col-parent-cell {
+  vertical-align: top !important;
+  padding: 3px;
+}
+.grid-multi-col-subgrid,
+.multi-col-parent-cell {
+  border-width: 0 !important;
+}
+.multi-col-separator {
+  width: 6px;
+}
+.grid-mobile-mode .multi-col-parent-cell,
+.grid-mobile-mode .multi-col-separator {
+  padding: 0;
+}
+.grid-multi-col-subgrid {
+  display: table;
+}
+.grid-desktop-mode.grid-multi-col .grid-multi-col-subgrid {
+  width: 100%;
+}
+.mobile-group-legend-space,
+.row-legend-both-space,
+.row-legend-group-space,
+.col-legend-space {
+  margin-top: 1em;
+}
+input[type="text"] {
+  max-width: 100%;
+  outline: none;
+}
+textarea {
+  min-width: 135px;
+  outline: none;
+}
+.cell-body {
+  display: table;
+}
+.cell-section {
+  display: table-cell;
+}
+.input,
+.cell-section,
+.mobile-oe-legend,
+.cell img {
+  vertical-align: middle;
+}
+.clickable {
+  cursor: pointer;
+  margin-left: 0.88rem;
+}
+.grid-single-col .cell {
+  text-align: left;
+}
+.mobile-oe-legend {
+  font-style: italic;
+}
+.devContainer .survey-q {
+  background: transparent;
+  position: relative;
+}
+.devContainer .grid {
+  background-color: #ffffff;
+}
+.devContainer .survey-q-question-text {
+  color: #454545;
+}
+.devContainer h3 {
+  color: #454545;
+}
+/* Auto Width on custom grids and no-row no-col non-list grids */
+.customWidth .grid,
+.flexGrid .grid,
+.noRows.noCols .grid-table-mode {
+  width: auto;
+}
+/* DESKTOP-ONLY formatting */
+.grid-desktop-mode {
+  display: table;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  /* Set table width class -- ".setWidth" is added to table.grid dynamically via JS for questions with less that ten cols */
+  /* Auto Width */
+  /* no explicit cols or rows*/
+  /* ===================== One Column ===================== */
+  /* Question column elements (col-legends and elements) - questions WITH row col-legends */
+  /* Auto Width */
+  /* Multicol AND clearColWidths (for when col widths are specified with inline CSS) - Set Auto Width */
+  /* Question column elements (col-legends and elements) - questions WITHOUT row col-legends */
+  /* Auto Width */
+  /* Lists - Set Auto Width */
+  /* ===================== Two to Four Columns ===================== */
+  /* Question column col-legends - questions WITH row col-legends */
+  /* Auto Width */
+  /* Question column col-legends - questions WITHOUT row col-legends */
+  /* Auto Width */
+  /* ===================== Five to Seven Columns ===================== */
+  /* Question column col-legends - questions WITH row col-legends */
+  /* Auto Width */
+  /* Question column col-legends - questions WITHOUT row col-legends */
+  /* Auto Width */
+  /* ===================== Eight to Ten Columns ===================== */
+  /* Question column col-legends - questions WITH row col-legends */
+  /* Auto Width */
+  /* Question column col-legends - questions WITHOUT row col-legends */
+  /* Auto Width */
+  /* ===================== Eleven Columns ===================== */
+  /* Question column col-legends - questions WITH row col-legends */
+  /* Auto Width */
+  /* Question column col-legends - questions WITHOUT row col-legends */
+  /* Auto Width */
+  /* ===================== 12-17 Columns ===================== */
+  /* Auto Width */
+}
+.grid-desktop-mode tbody {
+  display: table-row-group;
+}
+.grid-desktop-mode .row {
+  display: table-row;
+}
+.grid-desktop-mode .cell {
+  display: table-cell;
+}
+.grid-desktop-mode .cell-body,
+.grid-desktop-mode .cell-section {
+  display: inline-block;
+}
+.grid-desktop-mode .mobile-col-legend,
+.grid-desktop-mode .mobile-group-legend,
+.grid-desktop-mode .mobile-left-row-legend,
+.grid-desktop-mode .mobile-top-row-legend,
+.grid-desktop-mode .mobile-top-border-row,
+.grid-desktop-mode.grid-list-mode .row-legend-basic,
+.grid-desktop-mode.grid-list-mode .unused {
+  display: none;
+}
+.grid-desktop-mode .mobile-oe-legend {
+  display: none !important;
+}
+.grid-desktop-mode.grid-list-mode {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .grid-desktop-mode.grid-list-mode {
+    width: auto;
+  }
+}
+.grid-desktop-mode.grid-list-mode .col-legend {
+  display: inline;
+}
+.grid-desktop-mode.grid-list-mode .cell-body {
+  display: table;
+}
+.grid-desktop-mode.grid-list-mode .cell-section {
+  display: table-cell;
+}
+.grid-desktop-mode .col-separator {
+  border-width: 0;
+}
+.grid-desktop-mode .cell {
+  vertical-align: middle;
+}
+.grid-desktop-mode .col-legend,
+.grid-desktop-mode .element,
+.grid-desktop-mode .cell-section {
+  text-align: center;
+  vertical-align: middle;
+}
+.grid-desktop-mode .col-legend-bottom {
+  vertical-align: top;
+}
+.grid-desktop-mode .row-legend-both.row-legend-left {
+  text-align: right;
+}
+.grid-desktop-mode.grid-list-mode .cell-section,
+.grid-desktop-mode .row-legend-both.row-legend-right {
+  text-align: left;
+}
+.grid-desktop-mode.setWidth {
+  /* Set width for questions with less than ten cols */
+  max-width: 901px;
+}
+.customWidth .grid-desktop-mode.setWidth,
+.flexGrid .grid-desktop-mode.setWidth {
+  width: auto;
+  max-width: none;
+}
+.noRows.noCols.grid-table-mode .grid-desktop-mode,
+.noRows.noCols.grid-table-mode .grid-desktop-mode.setWidth {
+  width: auto;
+}
+.grid-desktop-mode .colCount-1 .col-legend,
+.grid-desktop-mode .colCount-1 .element {
+  width: 32%;
+}
+.customWidth .grid-desktop-mode .colCount-1 .col-legend,
+.flexGrid .grid-desktop-mode .colCount-1 .col-legend,
+.customWidth .grid-desktop-mode .colCount-1 .element,
+.flexGrid .grid-desktop-mode .colCount-1 .element {
+  width: auto;
+}
+.grid-desktop-mode.grid-multi-col .colCount-1 .element,
+.clearColWidths .grid-desktop-mode .colCount-1 .element {
+  width: auto;
+}
+.noRows .grid-desktop-mode.grid-table-mode .colCount-1 .element,
+.noRows .grid-desktop-mode.grid-table-mode .colCount-1 .col-legend {
+  width: 99%;
+  text-align: left;
+}
+.noRows.customWidth .grid-desktop-mode .colCount-1 .element,
+.noRows.flexWidth .grid-desktop-mode .colCount-1 .element,
+.noRows.customWidth .grid-desktop-mode .colCount-1 .col-legend,
+.noRows.flexWidth .grid-desktop-mode .colCount-1 .col-legend {
+  width: auto;
+}
+.grid-desktop-mode.grid-list-mode .colCount-1 .element,
+.grid-desktop-mode.grid-list-mode .colCount-1 .legend {
+  width: auto;
+}
+.grid-desktop-mode .colCount-2 .col-legend {
+  width: 22%;
+}
+.grid-desktop-mode .colCount-3 .col-legend {
+  width: 16.5%;
+}
+.grid-desktop-mode .colCount-4 .col-legend {
+  width: 14.5%;
+}
+.customWidth .grid-desktop-mode .colCount-2 .col-legend,
+.flexGrid .grid-desktop-mode .colCount-2 .col-legend,
+.customWidth .grid-desktop-mode .colCount-3 .col-legend,
+.flexGrid .grid-desktop-mode .colCount-3 .col-legend,
+.customWidth .grid-desktop-mode .colCount-4 .col-legend,
+.flexGrid .grid-desktop-mode .colCount-4 .col-legend {
+  width: auto;
+}
+.noRows .grid-desktop-mode .colCount-2 .col-legend {
+  width: 49%;
+}
+.noRows .grid-desktop-mode .colCount-3 .col-legend {
+  width: 33%;
+}
+.noRows .grid-desktop-mode .colCount-4 .col-legend {
+  width: 24%;
+}
+.noRows.customWidth .grid-desktop-mode .colCount-2 .col-legend,
+.noRows.flexWidth .grid-desktop-mode .colCount-2 .col-legend,
+.noRows.customWidth .grid-desktop-mode .colCount-3 .col-legend,
+.noRows.flexWidth .grid-desktop-mode .colCount-3 .col-legend,
+.noRows.customWidth .grid-desktop-mode .colCount-4 .col-legend,
+.noRows.flexWidth .grid-desktop-mode .colCount-4 .col-legend {
+  width: auto;
+}
+.grid-desktop-mode .colCount-5 .col-legend {
+  width: 12%;
+}
+.grid-desktop-mode .colCount-6 .col-legend {
+  width: 10.5%;
+}
+.grid-desktop-mode .colCount-7 .col-legend {
+  width: 9.5%;
+}
+.customWidth .grid-desktop-mode .colCount-5 .col-legend,
+.flexGrid .grid-desktop-mode .colCount-5 .col-legend,
+.customWidth .grid-desktop-mode .colCount-6 .col-legend,
+.flexGrid .grid-desktop-mode .colCount-6 .col-legend,
+.customWidth .grid-desktop-mode .colCount-7 .col-legend,
+.flexGrid .grid-desktop-mode .colCount-7 .col-legend {
+  width: auto;
+}
+.noRows .grid-desktop-mode .colCount-5 .col-legend {
+  width: 20%;
+}
+.noRows .grid-desktop-mode .colCount-6 .col-legend {
+  width: 16%;
+}
+.noRows .grid-desktop-mode .colCount-7 .col-legend {
+  width: 14%;
+}
+.noRows.customWidth .grid-desktop-mode .colCount-5 .col-legend,
+.noRows.flexWidth .grid-desktop-mode .colCount-5 .col-legend,
+.noRows.customWidth .grid-desktop-mode .colCount-6 .col-legend,
+.noRows.flexWidth .grid-desktop-mode .colCount-6 .col-legend,
+.noRows.customWidth .grid-desktop-mode .colCount-7 .col-legend,
+.noRows.flexWidth .grid-desktop-mode .colCount-7 .col-legend {
+  width: auto;
+}
+.grid-desktop-mode .colCount-8 .col-legend {
+  width: 8.5%;
+}
+.grid-desktop-mode .colCount-9 .col-legend {
+  width: 7.9%;
+}
+.grid-desktop-mode .colCount-10 .col-legend {
+  width: 7.3%;
+}
+.customWidth .grid-desktop-mode .colCount-8 .col-legend,
+.flexGrid .grid-desktop-mode .colCount-8 .col-legend,
+.customWidth .grid-desktop-mode .colCount-9 .col-legend,
+.flexGrid .grid-desktop-mode .colCount-9 .col-legend,
+.customWidth .grid-desktop-mode .colCount-10 .col-legend,
+.flexGrid .grid-desktop-mode .colCount-10 .col-legend {
+  width: auto;
+}
+.noRows .grid-desktop-mode .colCount-8 .col-legend {
+  width: 12%;
+}
+.noRows .grid-desktop-mode .colCount-9 .col-legend {
+  width: 11%;
+}
+.noRows .grid-desktop-mode .colCount-10 .col-legend {
+  width: 10%;
+}
+.noRows.customWidth .grid-desktop-mode .colCount-8 .col-legend,
+.noRows.flexWidth .grid-desktop-mode .colCount-8 .col-legend,
+.noRows.customWidth .grid-desktop-mode .colCount-9 .col-legend,
+.noRows.flexWidth .grid-desktop-mode .colCount-9 .col-legend,
+.noRows.customWidth .grid-desktop-mode .colCount-10 .col-legend,
+.noRows.flexWidth .grid-desktop-mode .colCount-10 .col-legend {
+  width: auto;
+}
+.grid-desktop-mode .colCount-11 .col-legend {
+  width: 7%;
+}
+.customWidth .grid-desktop-mode .colCount-11 .col-legend,
+.flexGrid .grid-desktop-mode .colCount-11 .col-legend {
+  width: auto;
+}
+.noRows .grid-desktop-mode .colCount-11 .col-legend {
+  width: 9%;
+}
+.noRows.customWidth .grid-desktop-mode .colCount-11 .col-legend,
+.noRows.flexWidth .grid-desktop-mode .colCount-11 .col-legend {
+  width: auto;
+}
+.grid-desktop-mode .colCount-12 .col-legend {
+  width: 7%;
+}
+.grid-desktop-mode .colCount-13 .col-legend {
+  width: 6%;
+}
+.grid-desktop-mode .colCount-14 .col-legend {
+  width: 5.5%;
+}
+.grid-desktop-mode .colCount-15 .col-legend {
+  width: 5.3%;
+}
+.grid-desktop-mode .colCount-16 .col-legend {
+  width: 5%;
+}
+.grid-desktop-mode .colCount-17 .col-legend {
+  width: 4.5%;
+}
+.customWidth .grid-desktop-mode .col-legend,
+.flexGrid .grid-desktop-mode .col-legend {
+  width: auto;
+}
+/* ========================================= (Survey Content > Survey Complete) ============================================*/
+/* =============================================== (Survey Content > Buttons) ==============================================*/
+/* ==================================================== (Survey Footer) =================================================== */
+/* ==================================================== (special styles) ================================================== */
+/* Show inline content on mouseover (formerly referred to as "dfn") */
+.survey-page-content a.show_inlineContent {
+  position: relative;
+}
+.survey-page-content a.show_inlineContent span.content {
+  position: absolute;
+  background-color: #EFEFEF;
+  border: 1px solid;
+  cursor: default;
+  display: none;
+  left: 1.5em;
+  padding: 0.5em;
+  text-align: left;
+  top: 1.5em;
+}
+.survey-page-content a.show_inlineContent:hover span.content {
+  display: block;
+  z-index: 1;
+}
+.ui-effects-transfer {
+  border: 2px dotted gray;
+}
+/* AQ Colors */
+.survey-theme-colors {
+  color: #FFFFFF;
+  background-color: #FFCC66;
+}
+.survey-theme-colors-disabled {
+  color: #FFFFFF;
+  background-color: #dedede;
+}
+.survey-theme-colors-selected {
+  color: #FFFFFF;
+  background-color: #FF8800;
+}
+/* ========================================================= (hacks) ====================================================== */
+.clearfix:after,
+.group:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+*:first-child + html .clearfix,
+*:first-child + html .group {
+  zoom: 1;
+}
+/* IE7 */
+.cati-comment {
+  text-transform: uppercase;
+  background-color: #FFFCD2;
+  padding: 10px;
+}
+/* ================================================== (Survey Images, pre-defined sizes) ================================================== */
+.survey_image.survey-image-small {
+  max-height: 150px;
+  max-width: 150px;
+}
+.survey_image.survey-image-medium {
+  max-height: 300px;
+  max-width: 300px;
+}
+.survey_image.survey-image-large {
+  max-height: 600px;
+  max-width: 600px;
+}
+.survey_image.survey-image-xlarge {
+  max-height: 900px;
+  max-width: 900px;
+}
+.fit {
+  width: auto;
+  max-width: 100%;
+}
+/* ==================================================== (Variables) ====================================================*/
+/* ==================================================== (General) ====================================================*/
+p,
+h3,
+h4 {
+  margin: 0 0 15px 0;
+  line-height: 115%;
+}
+a,
+a:hover {
+  color: #18ACFB;
+  transition: color 0.3s ease;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+}
+sub {
+  vertical-align: sub;
+  font-size: .83em;
+}
+sup {
+  vertical-align: super;
+  font-size: .83em;
+}
+ul,
+ol {
+  padding: 0 0 0 2.3em;
+  margin-bottom: 15px;
+}
+ul li,
+ol li {
+  padding-bottom: 7px;
+}
+ul li {
+  list-style-type: disc;
+}
+ol li {
+  list-style-type: decimal;
+}
+ul.list li:last-child,
+ol.list li:last-child {
+  padding-bottom: 0;
+}
+dl {
+  padding: 0 0 18px 1em;
+}
+dl dd {
+  padding-bottom: 7px;
+  padding-left: 2.3em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+h1 {
+  font-size: 2.2em;
+}
+h2 {
+  font-size: 1.78em;
+}
+h3 {
+  font-size: 1.19em;
+}
+h4 {
+  font-size: 0.9em;
+}
+h5 {
+  font-size: 0.8em;
+}
+h6 {
+  font-size: 0.75em;
+}
+.large-text {
+  font-size: 1.4em;
+}
+.small-text {
+  font-size: 0.75em;
+}
+html {
+  font-family: 'Roboto Condensed', Arial, "MS Trebuchet", sans-serif;
+  font-size: 0.875em;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 0.875em;
+  }
+}
+.survey-page {
+  background-color: #ffffff;
+  color: #737373;
+}
+@media (min-width: 768px) {
+  .survey-page {
+    padding: 1em 0;
+    background-color: #efefef;
+  }
+}
+#survey {
+  margin: 0 auto;
+}
+.survey-page-content {
+  min-height: 200px;
+  padding: 1em 5%;
+  background-color: #ffffff;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .survey-page-content {
+    padding: 1em 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1.5px 3px 0px #dbdbdb;
+    -moz-box-shadow: 1.5px 3px 0px #dbdbdb;
+    box-shadow: 1.5px 3px 0px #dbdbdb;
+  }
+}
+/* ============================================ (Survey Content > Extra Info) ==============================================*/
+/*
+    The respondent has already taken the survey message, and ..
+
+    This is also used in QA mode for:
+
+        - page breaks
+        - "show question attributes"
+        - "show source code"
+        - and other messages
+*/
+/* Extra Info Container */
+.survey-page-content .surveyInfo {
+  margin-bottom: 35px;
+}
+.survey-page-content .surveyInfo .info {
+  background-color: #CF6;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.survey-page-content .surveyInfo .info blockquote,
+.survey-page-content .surveyInfo .info p {
+  font-weight: bold;
+}
+.survey-page-content .surveyInfo .info p {
+  margin-bottom: 0;
+}
+/* Warning container */
+.survey-page-content .surveyWarning .info {
+  background-color: #FFC0CB;
+  padding: 10px;
+  font-weight: bold;
+}
+/* Autosave Restart Message */
+.autosave-restart {
+  background: #409bbc;
+  background: -moz-linear-gradient(top, #409bbc 0%, #3a87ad 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #409bbc), color-stop(100%, #3a87ad));
+  background: -webkit-linear-gradient(top, #409bbc 0%, #3a87ad 100%);
+  background: -o-linear-gradient(top, #409bbc 0%, #3a87ad 100%);
+  background: -ms-linear-gradient(top, #409bbc 0%, #3a87ad 100%);
+  background: linear-gradient(to bottom, #409bbc 0%, #3a87ad 100%);
+  border: 1px solid #3670A0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.autosave-restart:hover {
+  background: #3a87ad;
+  color: #fff;
+}
+/* ================================================= (Survey Content > Logo) ===============================================*/
+/*
+    This element will not get written to the page if a logo is not selected in builder
+*/
+/* Logo Container */
+.survey-logo {
+  text-align: center;
+  margin-bottom: 1em;
+}
+.survey-logo-left {
+  text-align: left;
+}
+.survey-logo-right {
+  text-align: right;
+}
+/* ============================================ (Survey Content > Progress Bar =============================================*/
+/* Progress Bar Container */
+.survey-progress {
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .survey-progress {
+    width: 30%;
+    text-align: right;
+    float: right;
+  }
+  .survey-logo-left + .survey-progress,
+  .survey-logo-middle + .survey-progress {
+    position: absolute;
+    top: 1em;
+    right: 3%;
+    float: none;
+  }
+}
+.survey-progress-bottom {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+.survey-progress-box,
+.survey-progress-text {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 3px;
+}
+/* Progress Bar Fill (empty) */
+.survey-progress-box {
+  background-color: transparent;
+  border: 1px solid #ababab;
+  width: 85%;
+  max-width: calc(100% - 4em);
+  text-align: right;
+  height: 1em;
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  .survey-progress-box {
+    width: 75%;
+  }
+}
+/* Progress Bar Fill (full) */
+.survey-progress-fill {
+  background-color: #18adff;
+  width: 0%;
+  height: 100%;
+  display: block;
+}
+/* Progress Bar Text */
+.survey-progress-text {
+  line-height: 1em;
+  padding-left: 0.5em;
+}
+/* ============================================== (Survey Content > Comment) ===============================================*/
+/* Comment Container */
+.survey-comment {
+  margin: 1.6em 0;
+}
+.survey-comment-text {
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+/* ========================================== (Survey Content > Survey Question) ===========================================*/
+/* Question Container */
+.survey-q {
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+  clear: both;
+}
+/* Follow-Up Questions - Questions that should appear closer to the question above. */
+.survey-q.followUpQuestion {
+  margin-top: -1em;
+}
+/* =================================== (Survey Content > Survey Question > Question Text) ==================================*/
+.survey-q-question {
+  font-size: 1em;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+}
+/* Programmers have the option to hide the question text */
+.hideQuestionText .survey-q-question {
+  display: none;
+}
+/* =================================== (Survey Content > Survey Question > Instructions) ===================================*/
+.survey-q-instructions {
+  font-size: 1em;
+  margin-bottom: 0.8em;
+  color: rgba(115, 115, 115, 0.9);
+}
+/* Programmers have the option to hide the respondent instruction text */
+.hideInstructionText .survey-q-instructions {
+  display: none;
+}
+/* =================================== (Survey Content > Survey Question > Answers) ===================================*/
+/* Mobile-first grid styling */
+.mobile-col-legend {
+  padding: 0 0.4em;
+}
+input[type="checkbox"] + .mobile-col-legend,
+input[type="radio"] + .mobile-col-legend {
+  padding: 0 0.25em;
+}
+select {
+  border: 1px solid #d1d1d1;
+  padding: 0.9em;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 1em;
+  color: #737373;
+}
+select:focus {
+  border: 1px solid #18acfb;
+}
+.input {
+  margin: 0;
+}
+input[type="text"] {
+  border: 1px solid #d1d1d1;
+  padding: 0.9em;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 1em;
+  color: #737373;
+}
+input[type="text"]:focus {
+  border: 1px solid #18acfb;
+}
+textarea {
+  width: 100%;
+  padding: 0.5em 0.75em;
+  font-family: 'Roboto Condensed', Arial, Helvetica;
+  color: #737373;
+  line-height: 125%;
+  border: 1px solid #d1d1d1;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+textarea:hover {
+  cursor: text;
+}
+textarea:focus {
+  border: 1px solid #18acfb;
+}
+.legend {
+  padding: 7px;
+}
+.element {
+  padding: 0.7em;
+}
+.element:hover,
+.element:focus,
+.element:active {
+  background-color: #f0f0f0;
+}
+.indent-1 {
+  padding-left: 14px;
+}
+.indent-2 {
+  padding-left: 21px;
+}
+.indent-3 {
+  padding-left: 28px;
+}
+.legend-level-1 {
+  font-size: 1.05em;
+}
+.legend-level-2 {
+  font-size: 1.25em;
+}
+.legend-level-3 {
+  font-size: 1.3em;
+}
+.grid-list-mode .cell,
+.grid-list-mode .cell:hover {
+  background-color: transparent;
+}
+.grid-desktop-mode .legend {
+  font-size: 1em;
+  background-color: #ededed;
+  padding: 0.4em 0.5em;
+}
+.grid-desktop-mode .row-legend-group {
+  font-size: 1.2em;
+  background-color: #dedede;
+}
+.grid-desktop-mode.grid-table-mode input[type="text"] {
+  padding: 1px 0.5em;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 1em;
+}
+.grid-desktop-mode.grid-table-mode textarea {
+  padding: 2px;
+  border: 1px solid #d1d1d1;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.grid-desktop-mode.grid-table-mode .nonempty {
+  border: 1px solid #d1d1d1;
+}
+.grid-desktop-mode.grid-list-mode .legend {
+  background-color: transparent;
+}
+.grid-desktop-mode.grid-group-by-col .col-legend-group {
+  font-size: 1em;
+}
+.grid-desktop-mode .element {
+  padding: 0.4em 0.0em;
+}
+/* ========================================= (Survey Content > Survey Complete) ============================================*/
+/* Header text */
+.survey-complete-text {
+  font-size: 1.4em;
+  margin: 1em 0;
+}
+@media (min-width: 768px) {
+  .survey-complete-text {
+    font-size: 2em;
+  }
+}
+/* Additional text/messages */
+/* =============================================== (Survey Content > Buttons) ==============================================*/
+/* Survey Buttons Container */
+.survey-buttons {
+  text-align: center;
+  margin: 1em 0;
+  padding-right: 1em;
+}
+@media (min-width: 768px) {
+  .survey-buttons {
+    text-align: right;
+  }
+}
+.survey-button,
+.btn_override {
+  -webkit-appearance: none;
+  cursor: pointer;
+  padding: 1em 2.5em;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 3px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 1.5px 3px 0px #dbdbdb;
+  -moz-box-shadow: 1.5px 3px 0px #dbdbdb;
+  box-shadow: 1.5px 3px 0px #dbdbdb;
+  transition: background 0.3s ease, border 0.3s ease;
+}
+.interface-btn {
+  font-size: 1rem;
+  background-color: #0083cb;
+  color: #ffffff;
+  padding: 1em 2.5em;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 0px #dbdbdb;
+  -moz-box-shadow: 1px 2px 0px #dbdbdb;
+  box-shadow: 1px 2px 0px #dbdbdb;
+  margin: 2px;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+.interface-btn:hover,
+.interface-btn:focus {
+  background-color: #00a4fe;
+  -webkit-box-shadow: 1px 2px 0px #efefef;
+  -moz-box-shadow: 1px 2px 0px #efefef;
+  box-shadow: 1px 2px 0px #efefef;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+.interface-btn:active {
+  background-color: #009aef;
+  -webkit-box-shadow: 1px 2px 0px #c6c6c6;
+  -moz-box-shadow: 1px 2px 0px #c6c6c6;
+  box-shadow: 1px 2px 0px #c6c6c6;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+.interface-btn[disabled] {
+  background-color: rgba(0, 131, 203, 0.12);
+}
+/* ============================================ (Survey Content > Errors) =============================================*/
+/*
+    The container for error messages
+    Survey page errors are displayed at the top of the page and are wrapped in a .survey-page-error container
+    Survey question errors are displayed WITHIN a question and are wrapped in a .survey-q-error containers
+*/
+.survey-page-error {
+  padding: 2em 0 1em;
+}
+.survey-page-error .error {
+  color: #ffffff;
+  font-weight: normal;
+  background-color: #c00710;
+  padding: 1em 1em;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.survey-page-error-text {
+  font-size: 1.4em;
+  margin: 0;
+}
+.survey-q-error .error {
+  color: #c00710;
+  font-weight: normal;
+  margin: 0.5em 0;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.survey-q-error .survey-q-error-text {
+  font-size: 1.2em;
+  margin: 0;
+}
+.cell.hasError,
+.element.hasError:hover,
+.rowLegendErr .oe,
+.colLegendErr .oe {
+  background-color: rgba(192, 7, 16, 0.1);
+}
+/* ==================================================== (Survey Footer) =================================================== */
+.footer {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+}
+.footer a {
+  color: #737373;
+  transition: color 0.5s ease;
+}
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: #0083cb;
+}
