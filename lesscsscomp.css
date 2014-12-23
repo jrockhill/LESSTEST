@@ -2344,6 +2344,8 @@ textarea {
 }
 .devContainer .survey-q-question-text {
   color: #454545;
+  margin-top: 1.5rem;
+  font-weight: 700;
 }
 .devContainer h3 {
   color: #454545;
@@ -2768,10 +2770,7 @@ dl dd {
   padding-left: 2.3em;
 }
 h1,
-h2{
-  font-weight: 700;
-  margin-top: 1.5em;
-}
+h2,
 h3,
 h4,
 h5,
