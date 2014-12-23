@@ -2338,7 +2338,7 @@ textarea {
 }
 .devContainer .survey-q-question-text {
   color: #454545;
-  margin-top: 1.5rem;
+  margin: 2rem 0 3rem 0;
   font-weight: 700;
 }
 .devContainer h3 {
