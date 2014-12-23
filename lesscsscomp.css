@@ -3235,8 +3235,9 @@ textarea:focus {
   -webkit-border-radius: 5px;
 }
 .survey-q-error .survey-q-error-text {
-  font-size: 1.2em;
-  line-height: 200%;
+  font-size: 1em;
+  line-height: 300%;
+  text-transform: uppercase;
 }
 .cell.hasError,
 .element.hasError:hover,
