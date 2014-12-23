@@ -3232,7 +3232,7 @@ textarea:focus {
 }
 .survey-q-error .survey-q-error-text {
   font-size: 1.2em;
-  padding: 3rem;
+  line-height: 200%;
 }
 .cell.hasError,
 .element.hasError:hover,
