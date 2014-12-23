@@ -3216,7 +3216,7 @@ textarea:focus {
 .survey-page-error .error {
   color: #ffffff;
   font-weight: normal;
-  background-color: #c00710;
+  background-color: #D1797E;
   padding: 1em 1em;
   border-radius: 5px;
   -moz-border-radius: 5px;
