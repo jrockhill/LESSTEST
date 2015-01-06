@@ -3067,7 +3067,7 @@ textarea:focus {
   border: 1px solid #18acfb;
 }
 .legend {
-  padding: 7px;
+  padding: 7px 7px 7px 0px;
 }
 .element {
   padding: 0.7em;
