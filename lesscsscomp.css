@@ -3268,5 +3268,8 @@ textarea:focus {
 }
 
 tr.odd{
-  background: rgb(240,240,240);
+  background: rgb(245,245,245);
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webskit-border-radius: 4px;
 }
