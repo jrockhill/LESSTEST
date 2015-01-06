@@ -3132,7 +3132,7 @@ textarea:focus {
   font-size: 1em;
 }
 .grid-desktop-mode .element {
-  padding: 0.4em 0.0em;
+  padding: 0.4em 0.4em;
 }
 /* ========================================= (Survey Content > Survey Complete) ============================================*/
 /* Header text */
