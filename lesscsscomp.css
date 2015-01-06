@@ -3036,6 +3036,7 @@ select:focus {
 }
 .input {
   margin: 0;
+  padding: 0.4em;
 }
 input[type="text"] {
   border: 1px solid #d1d1d1;
