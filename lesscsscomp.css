@@ -3126,7 +3126,6 @@ textarea:focus {
   background: transparent !important;
   background-color: transparent !important;
   border: 0px solid transparent !important;
-  border-radius: 30px;
 }
 .grid-desktop-mode.grid-list-mode .legend {
   background-color: transparent;
@@ -3266,4 +3265,8 @@ textarea:focus {
 .footer a:focus,
 .footer a:active {
   color: #0083cb;
+}
+
+tr.odd{
+  background: rgb(240,240,240);
 }
