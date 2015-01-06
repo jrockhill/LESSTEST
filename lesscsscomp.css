@@ -3262,3 +3262,8 @@ textarea:focus {
 .footer a:active {
   color: #0083cb;
 }
+
+.grid-desktop-mode.grid-table-mode .nonempty{
+  border: none;
+  background: transparent;
+}
