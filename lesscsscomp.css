@@ -3122,8 +3122,8 @@ textarea:focus {
   border-radius: 2px;
 }
 .grid-desktop-mode.grid-table-mode .nonempty {
-  background-color: transparent;
-  border: 0px solid transparent;
+  background-color: transparent !important;
+  border: 0px solid transparent !important;
 }
 .grid-desktop-mode.grid-list-mode .legend {
   background-color: transparent;
