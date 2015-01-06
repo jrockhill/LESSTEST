@@ -3123,6 +3123,7 @@ textarea:focus {
   border-radius: 2px;
 }
 .grid-desktop-mode.grid-table-mode .nonempty {
+  background: transparent !important;
   background-color: transparent !important;
   border: 0px solid transparent !important;
 }
@@ -3261,9 +3262,4 @@ textarea:focus {
 .footer a:focus,
 .footer a:active {
   color: #0083cb;
-}
-
-.grid-desktop-mode.grid-table-mode .nonempty{
-  border: none;
-  background: transparent;
 }
