@@ -3275,3 +3275,11 @@ tr.odd{
   -webkit-border-radius: 4px;
   overflow: hidden;
 }
+
+tr{
+  transition: background 0.3s ease;
+}
+
+tr:hover{
+  background: rgba(0,131,203,0.15);
+}
