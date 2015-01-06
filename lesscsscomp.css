@@ -2997,7 +2997,7 @@ html {
 .survey-q-question {
   font-size: 1em;
   line-height: 2em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 /* Programmers have the option to hide the question text */
 .hideQuestionText .survey-q-question {
