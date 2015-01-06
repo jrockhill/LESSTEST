@@ -3106,7 +3106,7 @@ textarea:focus {
 }
 .grid-desktop-mode .row-legend-group {
   font-size: 1.2em;
-  background-color: #dedede;
+  background-color: none;
 }
 .grid-desktop-mode.grid-table-mode input[type="text"] {
   padding: 0.5em;
