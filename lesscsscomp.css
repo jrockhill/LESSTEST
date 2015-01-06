@@ -3006,7 +3006,7 @@ html {
 /* =================================== (Survey Content > Survey Question > Instructions) ===================================*/
 .survey-q-instructions {
   font-size: 1em;
-  margin-bottom: 0.8em;
+  margin-bottom: 1em;
   color: rgba(115, 115, 115, 0.9);
 }
 /* Programmers have the option to hide the respondent instruction text */
