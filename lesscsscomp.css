@@ -3271,5 +3271,5 @@ tr.odd{
   background: rgb(245,245,245);
   border-radius: 4px;
   -moz-border-radius: 4px;
-  -webskit-border-radius: 4px;
+  -webkit-border-radius: 4px;
 }
